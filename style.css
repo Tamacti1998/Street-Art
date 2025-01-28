@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4vh;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-top: 4.5vh;
+    margin-left: 5vh;
+    font-size: 4vh;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: rgb(156, 150, 150);
+}
+
+nav a.active {
+    margin-right: 5vh;
+    font-size: 4vh;
+}
+
+nav a.active:hover {
+    background-color: rgb(156, 150, 150);
+}
+
+.main {
+    display: flex;
+}
+
+div.first-half {
+    display: flex;
+    flex-direction: column;
+}
+
+div.second-half {
+    display: flex;
+    flex-direction: column;
+}
+
+img.first-image {
+    width: 100%;
+    height: 50vh;
+}
+
+img.second-image {
+    width: 100%;
+}
+
+img.third-image {
+    width: 100%;
+    height: 75vh;
+
+}
+
+img.fourth-image {
+    float: right;
+    width: 100%;
+    height: 137vh;
+}
+
+img.fifth-image {
+    width: 100%;
+    height: 70vh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    flex-direction: column;
+}
+
+h2 {
+    margin-top: 10vh;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+img.boy {
+    height: 40vh;
+    width: 25%;
+    margin-bottom: 5vh;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    width: 60%;
+}
+
+form h3 {
+    color: red;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+}
+
+label {
+    font-weight: 5vh;
+}
+
+input {
+    width: 100%;
+    height: 5vh;
+    margin: 0.5vh;
+}
+
+input.active {
+    margin-top: 1.5vh;
+    cursor: pointer;
+    background-color: rgb(79, 76, 76);
+    color: white;
+    font-size: large;
+}
+
+input.active:hover {
+    background-color: rgb(137, 137, 137);
+    color: black;
+}
+
+p.active {
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+p.active a {
+    color: black;
+}
+
+p.active a:hover {
+    color: greenyellow;
+}
